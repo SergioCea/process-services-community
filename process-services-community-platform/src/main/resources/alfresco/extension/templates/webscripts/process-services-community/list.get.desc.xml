@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>List Workflows</shortname>
+    <description>List all deployed BPMN 2.0 definitions</description>
+    <url>/process-services-community/list</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

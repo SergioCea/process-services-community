@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Claim Workflow Task</shortname>
+    <description>Claims a visible workflow task for the authenticated user.</description>
+    <url>/process-services-community/task/claim</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

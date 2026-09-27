@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Get Workflow Definition</shortname>
+    <description>Gets the details of a workflow definition, including its BPMN XML content.</description>
+    <url>/process-services-community/definition</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

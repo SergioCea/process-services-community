@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Complete Workflow Task</shortname>
+    <description>Completes a workflow task with submitted form variables.</description>
+    <url>/process-services-community/task/complete</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

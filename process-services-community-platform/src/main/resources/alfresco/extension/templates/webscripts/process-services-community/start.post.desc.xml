@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Start Workflow</shortname>
+    <description>Starts a process instance from an active BPMN definition.</description>
+    <url>/process-services-community/start</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

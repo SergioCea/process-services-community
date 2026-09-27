@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>List Workflow Tasks</shortname>
+    <description>Lists active workflow tasks visible to the authenticated user.</description>
+    <url>/process-services-community/tasks</url>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

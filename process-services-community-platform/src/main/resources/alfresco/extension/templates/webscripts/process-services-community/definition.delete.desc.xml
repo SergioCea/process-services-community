@@ -1,0 +1,9 @@
+<webscript>
+    <shortname>Delete Workflow Definition</shortname>
+    <description>Deletes (undeploys) a workflow definition.</description>
+    <url>/process-services-community/definition?id={id}</url>
+    <method>DELETE</method>
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>required</transaction>
+</webscript>

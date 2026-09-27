@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  targetNamespace="http://seriocea.com/process-services-community">
+    <bpmn:process id="processServicesCommunitySmokeTest" name="Process Services Community Smoke Test"
+                  isExecutable="true">
+        <bpmn:startEvent id="StartEvent_1"/>
+        <bpmn:sequenceFlow id="StartToEnd" sourceRef="StartEvent_1" targetRef="EndEvent_1"/>
+        <bpmn:endEvent id="EndEvent_1"/>
+    </bpmn:process>
+</bpmn:definitions>

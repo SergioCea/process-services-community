@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Deploy Workflow</shortname>
+    <description>Deploys a BPMN 2.0 process definition to the workflow engine.</description>
+    <url>/process-services-community/deploy</url>
+    <format default="json">argument</format>
+    <authentication>admin</authentication>
+    <transaction>required</transaction>
+</webscript>
